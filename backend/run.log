@@ -1,0 +1,12 @@
+
+> zero-trust-pipeline-backend@1.0.0 dev
+> tsx watch src/index.ts
+
+Agent engine mode: AZURE
+Provisioning zero-trust agents on Azure AI Foundry…
+Zero-Trust pipeline backend listening on http://localhost:5178
+  • zero-trust-employee [reused] -> asst_P8wGJFPQy9MTIZAfETMPrrlo
+  • zero-trust-hr [reused] -> asst_APtDZbMn9mDxMbPxlSBOWTDY
+  • zero-trust-finance [reused] -> asst_nqJOTdI3TpVhmuTLgetLEjeo
+  • zero-trust-manager [reused] -> asst_0UP8KqZsyiwMdO63lyYs4uuX
+Agents ready.
