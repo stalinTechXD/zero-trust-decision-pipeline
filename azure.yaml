@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+name: zero-trust-decision-pipeline
+metadata:
+  template: zero-trust-decision-pipeline@1.0.0
+
+services:
+  backend:
+    project: ./backend
+    language: ts
+    host: appservice
+
+  frontend:
+    project: ./frontend
+    language: ts
+    host: staticwebapp
+    dist: dist
